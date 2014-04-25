@@ -1,4 +1,4 @@
-
+# Configuration files with sensitive information
 master_config.js
 
 # All node_modules, you can do a "npm install" instead
@@ -15,6 +15,3 @@ logs
 pids
 *.pid
 *.seed
-
-
-

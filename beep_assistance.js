@@ -27,7 +27,7 @@ var confObj = require('./master_config').config;
 var apiUrl = confObj.api_url;
 
 // HID instances (barcode scanners)-------------------------------------
-var HID = require('./node_modules/node-hid'), //require('node-hid'), 
+var HID = require('./node_modules/node-hid'),
 	barVendorID = 3118,
 	barDeviceID = 2561,
 	hidDevices =  HID.devices(barVendorID, barDeviceID),
