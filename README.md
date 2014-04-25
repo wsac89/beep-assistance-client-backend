@@ -26,4 +26,4 @@ Exec
 This software has been build and tested with Honeywell barcode scanners (Model: Voyager 1250), you must update the vendorID and productID in beep_assistance.js if you have a different device.
 
 * Plug in the barcode scanners
-* Exec: $ node ~/workspace/www/beep_assistance_backend/beep_assistance.js <location_id>
+* Exec: $ node ~/workspace/www/beep_assistance_backend/beep_assistance.js \<location_id\>
