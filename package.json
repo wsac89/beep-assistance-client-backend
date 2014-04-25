@@ -1,0 +1,18 @@
+{
+  "name": "beep-assistance-client-backend",
+  "version": "0.0.6",
+	"description": "Part of the beep assistance client application, which deals with the hardware (barcode scanners) handling and data fetching from beep-core-web-api to instantly emit it to the beep-assistance-client-web-ui",
+	"repository" : { 
+		"type" : "git" , 
+		"url" : "https://github.com/IglekidsDev/beep-assistance-client-backend.git"
+  },
+  "dependencies": {
+		"node-hid" :  "0.3.x",
+		"socket.io" : "0.9.x",
+		"mongoskin" : "1.3.x"
+	},
+  "devDependencies": { },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
