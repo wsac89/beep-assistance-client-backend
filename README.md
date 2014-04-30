@@ -7,6 +7,7 @@ Pre-Install
 -----------
 
 In order to install this application you must have its dependencies:
+* Unix like OS (GNU Linux | Hurb | BSD or MacOS) 
 * Nodejs 	>= 0.10.25
 * MongoDB >= 2.2.4
 * At least one wired barcode scanner
@@ -14,16 +15,20 @@ In order to install this application you must have its dependencies:
 Install
 -------
 
-* Make working directory: 	$ mkdir -p ~/workspace/www/beep_assistance_backend && cd $_
-* Clone this repository : 	$ git clone https://github.com/IglekidsDev/beep-assistance-client-backend.git
-* Install all dependencies: $ npm install
+* Make working directory
+	$ mkdir -p ~/workspace/www/beep_assistance_backend && cd $_
+* Clone this repository
+	$ git clone https://github.com/IglekidsDev/beep-assistance-client-backend.git
+* Install all dependencies
+	$ npm install
 
-** If you have some trouble with the last step should be a problem with node-hid module please check its [repo](https://github.com/node-hid/node-hid). **
+** If you have some trouble with the last step it could a *node-hid module* issue, please check its [repo](https://github.com/node-hid/node-hid). **
 
-Exec
-----
+Run
+---
 
 This software has been build and tested with Honeywell barcode scanners (Model: Voyager 1250), you must update the vendorID and productID in beep_assistance.js if you have a different device.
 
 * Plug in the barcode scanners
-* Exec: $ node ~/workspace/www/beep_assistance_backend/beep_assistance.js \<location_id\>
+* Exec
+	$ node ~/workspace/www/beep_assistance_backend/beep_assistance.js \<location_id\>
